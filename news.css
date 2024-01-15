@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Edu+SA+Beginner:wght@500&family=Handjet:wght@300&family=Indie+Flower&family=Julee&family=Manrope:wght@300&family=Montserrat:wght@200&family=Orbitron&family=Playfair+Display&family=Poppins:wght@100&family=Raleway:wght@200&family=Roboto:wght@100;300;500&family=Space+Grotesk:wght@300&family=Ubuntu&family=Victor+Mono:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(235, 18%, 26%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width:  100vw;
+    overflow: hidden;
+}
+.container{
+    background-color: white;
+    max-width: 730px;
+    max-height: 390px;
+    border-radius: 16px;
+    box-shadow: 2px 2px 5px black;
+    display: flex;
+    justify-content: space-around;
+    visibility: visible;
+    position: relative;
+    left: 200px;
+}
+.content{
+    width: 785px;
+    position: relative;
+    bottom: 4px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+.content h1{
+    font-size: 37px;  
+}
+.content p{
+    margin-top: 14px;
+    margin-right: 115px;
+    font-size: 12px;
+}
+.back{
+    max-width: 530px;
+    max-height: 800px;
+}
+.back img{
+    position: relative;
+    bottom: 115px;
+    right: 15px;
+    width: 235px;
+    height: 620px;
+}
+.first{
+    display: flex;
+}
+.first1{
+    margin-top: 12px;
+}
+.first p{
+    position: relative;
+    left: 15px;
+    bottom: 6px;
+}
+.msg{
+    display: flex;
+    justify-content: space-between;
+}
+.invalid{
+    color: red;
+    margin-right: 30px;
+}
+.content input{
+    height: 39px;
+    width: 330px;
+    margin-top: 10px;
+}
+.content button{
+    height: 45px;
+    width: 340px;
+    margin-top: 25px;
+    border-radius: 6px;
+    background-color: hsl(235, 31%, 23%);
+    color: white;
+    cursor: pointer;
+}
+.invalid{
+    visibility: hidden;
+}
+.container2{
+    height: 315px;
+    width:250px;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 19px;
+    box-shadow: 0px 0px 2px black;
+    letter-spacing: 0.055rem;
+    visibility: hidden;
+    text-align: center;
+    position: relative;
+    right: 340px;
+}
+.container2 img{
+    position: relative;
+    top: 30px;
+    right: 80px;
+    width: 64px;
+    height: 43px;
+}
+.container2 h1{
+    position: relative;
+    top: 36px;
+    right: 13px;
+    font-weight: 600;
+}
+.container2 p{
+    font-size: 0.65rem;
+    position: relative;
+    left: 2px;
+    top: 54px;
+}
+.container2 button{ 
+    height: 40px;
+    width: 195px;
+    border-radius: 6px;
+    background-color: hsl(235, 31%, 23%);
+    color: white;
+    cursor: pointer;
+    position: relative;
+    top: 80px;
+    border: none;
+}
